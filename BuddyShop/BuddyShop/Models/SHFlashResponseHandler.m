@@ -116,6 +116,7 @@
     [inCodeMappingProvider mapFromDictionaryKey:@"SRC"
                                   toPropertyKey:@"src"
                                        forClass:[SHFlashOutputDataItemImage class]];
+    
     /******************* Response - OUTPUT - DATA - ITEM - TIMER**********************/
     [inCodeMappingProvider mapFromDictionaryKey:@"TIMER"
                                   toPropertyKey:@"timer"

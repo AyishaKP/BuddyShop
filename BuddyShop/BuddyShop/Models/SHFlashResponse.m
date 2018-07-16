@@ -12,3 +12,31 @@
 @implementation SHFlashResponse
 
 @end
+
+@implementation SHFlashAPI
+
+@end
+@implementation SHFlashOutput
+
+@end
+@implementation SHFlashStatus
+
+@end
+@implementation SHFlashOutputData
+
+@end
+@implementation SHFlashOutputDataItem
+
+@end
+@implementation SHFlashOutputDataItemPrice
+
+@end
+@implementation SHFlashOutputDataItemImage
+
+@end
+@implementation SHFlashOutputDataItemTimer
+
+@end
+@implementation SHFlashOutputNavigation
+
+@end
