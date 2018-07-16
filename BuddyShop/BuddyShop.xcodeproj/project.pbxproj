@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2283AD5BAD1D42AD5127A971 /* libPods-BuddyShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */; };
+		5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */; };
+		5A7C031320FC8B7E00DBB2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031120FC8B7E00DBB2BF /* Main.storyboard */; };
+		5A7C031520FC8B8700DBB2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031420FC8B8700DBB2BF /* Assets.xcassets */; };
+		5A7C031820FC8B8700DBB2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031620FC8B8700DBB2BF /* LaunchScreen.storyboard */; };
+		5A7C031B20FC8B8700DBB2BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C031A20FC8B8700DBB2BF /* main.m */; };
+		5A7C032520FC8B8800DBB2BF /* BuddyShopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C032420FC8B8800DBB2BF /* BuddyShopTests.m */; };
+		5A7C033020FC8B8800DBB2BF /* BuddyShopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C032F20FC8B8800DBB2BF /* BuddyShopUITests.m */; };
+		5A7C034E20FCB81A00DBB2BF /* SHHomeTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C034D20FCB81A00DBB2BF /* SHHomeTableTableViewController.m */; };
+		5A7C035120FCB84900DBB2BF /* SHHorizontalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035020FCB84900DBB2BF /* SHHorizontalCollectionViewController.m */; };
+		5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035320FCB85B00DBB2BF /* SHVerticalCollectionViewController.m */; };
+		5A7C035720FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */; };
+		5A7C035A20FCB8D100DBB2BF /* SHProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */; };
+		5A7C035D20FCF29000DBB2BF /* SHProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035C20FCF29000DBB2BF /* SHProduct.m */; };
+		5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035F20FCF33000DBB2BF /* SHBanner.m */; };
+		5A7C036D20FCFAE000DBB2BF /* SHFlashResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036C20FCFAE000DBB2BF /* SHFlashResponse.m */; };
+		5A7C037020FD01C000DBB2BF /* SHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */; };
+		5A7C037620FD2B3E00DBB2BF /* SHFlashResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C037520FD2B3E00DBB2BF /* SHFlashResponseHandler.m */; };
+		D9B13A2174652B1721BDD5F6 /* libPods-BuddyShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5E550C55ABCFDE89650E19 /* libPods-BuddyShop.a */; };
+		DFD650DC0B213B08965416D7 /* libPods-BuddyShopUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A7C032120FC8B8800DBB2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7C030020FC8B7E00DBB2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7C030720FC8B7E00DBB2BF;
+			remoteInfo = BuddyShop;
+		};
+		5A7C032C20FC8B8800DBB2BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A7C030020FC8B7E00DBB2BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7C030720FC8B7E00DBB2BF;
+			remoteInfo = BuddyShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23E4A5291CE0E8774DEC8413 /* Pods-BuddyShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopUITests/Pods-BuddyShopUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3B916EBB436FED6F28C90463 /* Pods-BuddyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopUITests/Pods-BuddyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CBC0D5CF08975B46B754CBE /* Pods-BuddyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShop/Pods-BuddyShop.release.xcconfig"; sourceTree = "<group>"; };
+		481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7C030820FC8B7E00DBB2BF /* BuddyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7C030B20FC8B7E00DBB2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A7C031220FC8B7E00DBB2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A7C031420FC8B8700DBB2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A7C031720FC8B8700DBB2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A7C031920FC8B8700DBB2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7C031A20FC8B8700DBB2BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A7C032020FC8B8800DBB2BF /* BuddyShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7C032420FC8B8800DBB2BF /* BuddyShopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyShopTests.m; sourceTree = "<group>"; };
+		5A7C032620FC8B8800DBB2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7C032B20FC8B8800DBB2BF /* BuddyShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddyShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7C032F20FC8B8800DBB2BF /* BuddyShopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuddyShopUITests.m; sourceTree = "<group>"; };
+		5A7C033120FC8B8800DBB2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A7C034C20FCB81A00DBB2BF /* SHHomeTableTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHHomeTableTableViewController.h; sourceTree = "<group>"; };
+		5A7C034D20FCB81A00DBB2BF /* SHHomeTableTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHHomeTableTableViewController.m; sourceTree = "<group>"; };
+		5A7C034F20FCB84800DBB2BF /* SHHorizontalCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHHorizontalCollectionViewController.h; sourceTree = "<group>"; };
+		5A7C035020FCB84900DBB2BF /* SHHorizontalCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHHorizontalCollectionViewController.m; sourceTree = "<group>"; };
+		5A7C035220FCB85B00DBB2BF /* SHVerticalCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHVerticalCollectionViewController.h; sourceTree = "<group>"; };
+		5A7C035320FCB85B00DBB2BF /* SHVerticalCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHVerticalCollectionViewController.m; sourceTree = "<group>"; };
+		5A7C035520FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFeaturedCollectionViewCell.h; sourceTree = "<group>"; };
+		5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFeaturedCollectionViewCell.m; sourceTree = "<group>"; };
+		5A7C035820FCB8D100DBB2BF /* SHProductCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHProductCollectionViewCell.h; sourceTree = "<group>"; };
+		5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHProductCollectionViewCell.m; sourceTree = "<group>"; };
+		5A7C035B20FCF29000DBB2BF /* SHProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHProduct.h; sourceTree = "<group>"; };
+		5A7C035C20FCF29000DBB2BF /* SHProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHProduct.m; sourceTree = "<group>"; };
+		5A7C035E20FCF32F00DBB2BF /* SHBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHBanner.h; sourceTree = "<group>"; };
+		5A7C035F20FCF33000DBB2BF /* SHBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHBanner.m; sourceTree = "<group>"; };
+		5A7C036B20FCFAE000DBB2BF /* SHFlashResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFlashResponse.h; sourceTree = "<group>"; };
+		5A7C036C20FCFAE000DBB2BF /* SHFlashResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlashResponse.m; sourceTree = "<group>"; };
+		5A7C036E20FD01C000DBB2BF /* SHServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHServiceManager.h; sourceTree = "<group>"; };
+		5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHServiceManager.m; sourceTree = "<group>"; };
+		5A7C037420FD2B3E00DBB2BF /* SHFlashResponseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFlashResponseHandler.h; sourceTree = "<group>"; };
+		5A7C037520FD2B3E00DBB2BF /* SHFlashResponseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlashResponseHandler.m; sourceTree = "<group>"; };
+		696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5E550C55ABCFDE89650E19 /* libPods-BuddyShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C6E4F3F1A271D5BE1828B7 /* Pods-BuddyShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopTests/Pods-BuddyShopTests.release.xcconfig"; sourceTree = "<group>"; };
+		FCA21D010D8F82FEC019CEB0 /* Pods-BuddyShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShop/Pods-BuddyShop.debug.xcconfig"; sourceTree = "<group>"; };
+		FE771EE7D00007CF28D97060 /* Pods-BuddyShopTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopTests/Pods-BuddyShopTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A7C030520FC8B7E00DBB2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B13A2174652B1721BDD5F6 /* libPods-BuddyShop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7C031D20FC8B8800DBB2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2283AD5BAD1D42AD5127A971 /* libPods-BuddyShopTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7C032820FC8B8800DBB2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD650DC0B213B08965416D7 /* libPods-BuddyShopUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D2D008D76128C666A726688 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5E550C55ABCFDE89650E19 /* libPods-BuddyShop.a */,
+				696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */,
+				481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A7C02FF20FC8B7E00DBB2BF = {
+			isa = PBXGroup;
+			children = (
+				5A7C030A20FC8B7E00DBB2BF /* BuddyShop */,
+				5A7C032320FC8B8800DBB2BF /* BuddyShopTests */,
+				5A7C032E20FC8B8800DBB2BF /* BuddyShopUITests */,
+				5A7C030920FC8B7E00DBB2BF /* Products */,
+				EE898380EDE45F7A897C9831 /* Pods */,
+				1D2D008D76128C666A726688 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A7C030920FC8B7E00DBB2BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C030820FC8B7E00DBB2BF /* BuddyShop.app */,
+				5A7C032020FC8B8800DBB2BF /* BuddyShopTests.xctest */,
+				5A7C032B20FC8B8800DBB2BF /* BuddyShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A7C030A20FC8B7E00DBB2BF /* BuddyShop */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C036120FCF62200DBB2BF /* ThirdParties */,
+				5A7C034920FC8CE700DBB2BF /* Helpers */,
+				5A7C034820FC8CE700DBB2BF /* Extensions */,
+				5A7C034A20FC8CE800DBB2BF /* Models */,
+				5A7C034720FC8CE700DBB2BF /* Controllers */,
+				5A7C034B20FC8CE800DBB2BF /* Views */,
+				5A7C030B20FC8B7E00DBB2BF /* AppDelegate.h */,
+				5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */,
+				5A7C031120FC8B7E00DBB2BF /* Main.storyboard */,
+				5A7C031420FC8B8700DBB2BF /* Assets.xcassets */,
+				5A7C031620FC8B8700DBB2BF /* LaunchScreen.storyboard */,
+				5A7C031920FC8B8700DBB2BF /* Info.plist */,
+				5A7C031A20FC8B8700DBB2BF /* main.m */,
+			);
+			path = BuddyShop;
+			sourceTree = "<group>";
+		};
+		5A7C032320FC8B8800DBB2BF /* BuddyShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C032420FC8B8800DBB2BF /* BuddyShopTests.m */,
+				5A7C032620FC8B8800DBB2BF /* Info.plist */,
+			);
+			path = BuddyShopTests;
+			sourceTree = "<group>";
+		};
+		5A7C032E20FC8B8800DBB2BF /* BuddyShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C032F20FC8B8800DBB2BF /* BuddyShopUITests.m */,
+				5A7C033120FC8B8800DBB2BF /* Info.plist */,
+			);
+			path = BuddyShopUITests;
+			sourceTree = "<group>";
+		};
+		5A7C034720FC8CE700DBB2BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C034C20FCB81A00DBB2BF /* SHHomeTableTableViewController.h */,
+				5A7C034D20FCB81A00DBB2BF /* SHHomeTableTableViewController.m */,
+				5A7C034F20FCB84800DBB2BF /* SHHorizontalCollectionViewController.h */,
+				5A7C035020FCB84900DBB2BF /* SHHorizontalCollectionViewController.m */,
+				5A7C035220FCB85B00DBB2BF /* SHVerticalCollectionViewController.h */,
+				5A7C035320FCB85B00DBB2BF /* SHVerticalCollectionViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5A7C034820FC8CE700DBB2BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5A7C034920FC8CE700DBB2BF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5A7C034A20FC8CE800DBB2BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C035B20FCF29000DBB2BF /* SHProduct.h */,
+				5A7C035C20FCF29000DBB2BF /* SHProduct.m */,
+				5A7C035E20FCF32F00DBB2BF /* SHBanner.h */,
+				5A7C035F20FCF33000DBB2BF /* SHBanner.m */,
+				5A7C036B20FCFAE000DBB2BF /* SHFlashResponse.h */,
+				5A7C036C20FCFAE000DBB2BF /* SHFlashResponse.m */,
+				5A7C036E20FD01C000DBB2BF /* SHServiceManager.h */,
+				5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */,
+				5A7C037420FD2B3E00DBB2BF /* SHFlashResponseHandler.h */,
+				5A7C037520FD2B3E00DBB2BF /* SHFlashResponseHandler.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A7C034B20FC8CE800DBB2BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C035520FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.h */,
+				5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */,
+				5A7C035820FCB8D100DBB2BF /* SHProductCollectionViewCell.h */,
+				5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5A7C036120FCF62200DBB2BF /* ThirdParties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParties;
+			sourceTree = "<group>";
+		};
+		EE898380EDE45F7A897C9831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCA21D010D8F82FEC019CEB0 /* Pods-BuddyShop.debug.xcconfig */,
+				3CBC0D5CF08975B46B754CBE /* Pods-BuddyShop.release.xcconfig */,
+				FE771EE7D00007CF28D97060 /* Pods-BuddyShopTests.debug.xcconfig */,
+				F5C6E4F3F1A271D5BE1828B7 /* Pods-BuddyShopTests.release.xcconfig */,
+				3B916EBB436FED6F28C90463 /* Pods-BuddyShopUITests.debug.xcconfig */,
+				23E4A5291CE0E8774DEC8413 /* Pods-BuddyShopUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A7C030720FC8B7E00DBB2BF /* BuddyShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7C033420FC8B8800DBB2BF /* Build configuration list for PBXNativeTarget "BuddyShop" */;
+			buildPhases = (
+				49BBE8E3E89A637A03A26312 /* [CP] Check Pods Manifest.lock */,
+				5A7C030420FC8B7E00DBB2BF /* Sources */,
+				5A7C030520FC8B7E00DBB2BF /* Frameworks */,
+				5A7C030620FC8B7E00DBB2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddyShop;
+			productName = BuddyShop;
+			productReference = 5A7C030820FC8B7E00DBB2BF /* BuddyShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A7C031F20FC8B8800DBB2BF /* BuddyShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7C033720FC8B8800DBB2BF /* Build configuration list for PBXNativeTarget "BuddyShopTests" */;
+			buildPhases = (
+				15C63B83B78D276893FC0209 /* [CP] Check Pods Manifest.lock */,
+				5A7C031C20FC8B8800DBB2BF /* Sources */,
+				5A7C031D20FC8B8800DBB2BF /* Frameworks */,
+				5A7C031E20FC8B8800DBB2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7C032220FC8B8800DBB2BF /* PBXTargetDependency */,
+			);
+			name = BuddyShopTests;
+			productName = BuddyShopTests;
+			productReference = 5A7C032020FC8B8800DBB2BF /* BuddyShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A7C032A20FC8B8800DBB2BF /* BuddyShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A7C033A20FC8B8800DBB2BF /* Build configuration list for PBXNativeTarget "BuddyShopUITests" */;
+			buildPhases = (
+				61C79029390BB8FC2189A324 /* [CP] Check Pods Manifest.lock */,
+				5A7C032720FC8B8800DBB2BF /* Sources */,
+				5A7C032820FC8B8800DBB2BF /* Frameworks */,
+				5A7C032920FC8B8800DBB2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A7C032D20FC8B8800DBB2BF /* PBXTargetDependency */,
+			);
+			name = BuddyShopUITests;
+			productName = BuddyShopUITests;
+			productReference = 5A7C032B20FC8B8800DBB2BF /* BuddyShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A7C030020FC8B7E00DBB2BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Awok;
+				TargetAttributes = {
+					5A7C030720FC8B7E00DBB2BF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5A7C031F20FC8B8800DBB2BF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5A7C030720FC8B7E00DBB2BF;
+					};
+					5A7C032A20FC8B8800DBB2BF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 5A7C030720FC8B7E00DBB2BF;
+					};
+				};
+			};
+			buildConfigurationList = 5A7C030320FC8B7E00DBB2BF /* Build configuration list for PBXProject "BuddyShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A7C02FF20FC8B7E00DBB2BF;
+			productRefGroup = 5A7C030920FC8B7E00DBB2BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A7C030720FC8B7E00DBB2BF /* BuddyShop */,
+				5A7C031F20FC8B8800DBB2BF /* BuddyShopTests */,
+				5A7C032A20FC8B8800DBB2BF /* BuddyShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7C030620FC8B7E00DBB2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7C031820FC8B8700DBB2BF /* LaunchScreen.storyboard in Resources */,
+				5A7C031520FC8B8700DBB2BF /* Assets.xcassets in Resources */,
+				5A7C031320FC8B7E00DBB2BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7C031E20FC8B8800DBB2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7C032920FC8B8800DBB2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15C63B83B78D276893FC0209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyShopTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49BBE8E3E89A637A03A26312 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61C79029390BB8FC2189A324 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BuddyShopUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A7C030420FC8B7E00DBB2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7C035720FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m in Sources */,
+				5A7C035120FCB84900DBB2BF /* SHHorizontalCollectionViewController.m in Sources */,
+				5A7C036D20FCFAE000DBB2BF /* SHFlashResponse.m in Sources */,
+				5A7C037020FD01C000DBB2BF /* SHServiceManager.m in Sources */,
+				5A7C035A20FCB8D100DBB2BF /* SHProductCollectionViewCell.m in Sources */,
+				5A7C037620FD2B3E00DBB2BF /* SHFlashResponseHandler.m in Sources */,
+				5A7C031B20FC8B8700DBB2BF /* main.m in Sources */,
+				5A7C034E20FCB81A00DBB2BF /* SHHomeTableTableViewController.m in Sources */,
+				5A7C035D20FCF29000DBB2BF /* SHProduct.m in Sources */,
+				5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */,
+				5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */,
+				5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7C031C20FC8B8800DBB2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7C032520FC8B8800DBB2BF /* BuddyShopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A7C032720FC8B8800DBB2BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7C033020FC8B8800DBB2BF /* BuddyShopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A7C032220FC8B8800DBB2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7C030720FC8B7E00DBB2BF /* BuddyShop */;
+			targetProxy = 5A7C032120FC8B8800DBB2BF /* PBXContainerItemProxy */;
+		};
+		5A7C032D20FC8B8800DBB2BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A7C030720FC8B7E00DBB2BF /* BuddyShop */;
+			targetProxy = 5A7C032C20FC8B8800DBB2BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A7C031120FC8B7E00DBB2BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7C031220FC8B7E00DBB2BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A7C031620FC8B8700DBB2BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A7C031720FC8B8700DBB2BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A7C033220FC8B8800DBB2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A7C033320FC8B8800DBB2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A7C033520FC8B8800DBB2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCA21D010D8F82FEC019CEB0 /* Pods-BuddyShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5A7C033620FC8B8800DBB2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CBC0D5CF08975B46B754CBE /* Pods-BuddyShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyShop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5A7C033820FC8B8800DBB2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE771EE7D00007CF28D97060 /* Pods-BuddyShopTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyShop.app/BuddyShop";
+			};
+			name = Debug;
+		};
+		5A7C033920FC8B8800DBB2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C6E4F3F1A271D5BE1828B7 /* Pods-BuddyShopTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyShopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddyShop.app/BuddyShop";
+			};
+			name = Release;
+		};
+		5A7C033B20FC8B8800DBB2BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B916EBB436FED6F28C90463 /* Pods-BuddyShopUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuddyShop;
+			};
+			name = Debug;
+		};
+		5A7C033C20FC8B8800DBB2BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E4A5291CE0E8774DEC8413 /* Pods-BuddyShopUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BuddyShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BuddyShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A7C030320FC8B7E00DBB2BF /* Build configuration list for PBXProject "BuddyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7C033220FC8B8800DBB2BF /* Debug */,
+				5A7C033320FC8B8800DBB2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7C033420FC8B8800DBB2BF /* Build configuration list for PBXNativeTarget "BuddyShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7C033520FC8B8800DBB2BF /* Debug */,
+				5A7C033620FC8B8800DBB2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7C033720FC8B8800DBB2BF /* Build configuration list for PBXNativeTarget "BuddyShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7C033820FC8B8800DBB2BF /* Debug */,
+				5A7C033920FC8B8800DBB2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A7C033A20FC8B8800DBB2BF /* Build configuration list for PBXNativeTarget "BuddyShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A7C033B20FC8B8800DBB2BF /* Debug */,
+				5A7C033C20FC8B8800DBB2BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A7C030020FC8B7E00DBB2BF /* Project object */;
+}
