@@ -22,9 +22,15 @@
 @implementation SHStatus
 
 @end
+
 @implementation SHOutputData
 
 @end
+
+@implementation SHOutputDataItemImage
+
+@end
+
 @implementation SHOutputDataItem
 
 @end

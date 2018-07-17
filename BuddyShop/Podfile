@@ -9,6 +9,8 @@ target 'BuddyShop' do
 
   pod 'OCMapper'
   pod 'AFNetworking'
+  pod 'SDWebImage', '~> 4.0'
+  pod 'Toast', '~> 4.0.0'
 
   target 'BuddyShopTests' do
     inherit! :search_paths

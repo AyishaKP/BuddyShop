@@ -7,7 +7,8 @@
 //
 
 #import "SHFeaturedCollectionViewCell.h"
-
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "SHResponse.h"
 
 @interface SHFeaturedCollectionViewCell()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -21,5 +22,23 @@
 @end
 
 @implementation SHFeaturedCollectionViewCell
+
+- (void)configureCellWithItem:(SHOutputDataItem *)item andMetadata:(SHAPI *)metadata {
+    
+    [_imageView sd_setImageWithURL:[NSURL URLWithString: item.image.src]
+                  placeholderImage:[UIImage imageNamed:@"placeholder"]];
+    _labelTitle.text = item.name;
+    
+    
+    NSAttributedString *oldValueStr =
+    [[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@ %@", [item.prices.priceOld stringValue], metadata.currency]
+                                                                              attributes: @{NSForegroundColorAttributeName: [UIColor grayColor], NSStrikethroughStyleAttributeName:
+                                                                           [NSNumber numberWithInteger:NSUnderlineStyleSingle]}];
+    
+    
+    _labelOldPrice.attributedText = oldValueStr;
+    _labelCurrentPrice.text = [NSString stringWithFormat:@"%@ %@", item.prices.priceNew, metadata.currency];
+    [_buttonSale setTitle:item.state forState:UIControlStateNormal];
+}
 
 @end

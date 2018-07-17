@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SHOutputDataItem;
+@class SHAPI;
 
 @interface SHFeaturedCollectionViewCell : UICollectionViewCell
-
+- (void)configureCellWithItem:(SHOutputDataItem *)item andMetadata:(SHAPI *)metadata;
 @end

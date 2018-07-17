@@ -37,6 +37,14 @@
                                  withObjectType:[SHOutputDataItem class]
                                        forClass:[SHOutputData class]];
     
+//    [inCodeMappingProvider mapFromDictionaryKey:@"IMAGE"
+//                                  toPropertyKey:@"image"
+//                                 withObjectType:[SHOutputDataItemImage class]
+//                                       forClass:[SHOutputDataItem class]];
+//    [inCodeMappingProvider mapFromDictionaryKey:@"SRC"
+//                                  toPropertyKey:@"src"
+//                                       forClass:[SHOutputDataItemImage class]];
+//    
     [inCodeMappingProvider mapFromDictionaryKey:@"ID"
                                   toPropertyKey:@"itemId"
                                        forClass:[SHOutputDataItem class]];

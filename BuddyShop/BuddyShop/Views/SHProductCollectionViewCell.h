@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SHOutputDataItem;
+@class SHAPI;
 
 @interface SHProductCollectionViewCell : UICollectionViewCell
+- (void)configureCellWithItem:(SHOutputDataItem *)item andMetadata:(SHAPI *)metadata;
 
 @end
