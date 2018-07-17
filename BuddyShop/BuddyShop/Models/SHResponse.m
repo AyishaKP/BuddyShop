@@ -13,27 +13,27 @@
 
 @end
 
-@implementation SHFlashAPI
+@implementation SHAPI
 
 @end
-@implementation SHFlashOutput
+@implementation SHOutput
 
 @end
-@implementation SHFlashStatus
+@implementation SHStatus
 
 @end
-@implementation SHFlashOutputData
+@implementation SHOutputData
 
 @end
-@implementation SHFlashOutputDataItem
+@implementation SHOutputDataItem
 
 @end
-@implementation SHFlashOutputDataItemPrice
+@implementation SHOutputDataItemPrice
 
 @end
-@implementation SHFlashOutputDataItemTimer
+@implementation SHOutputDataItemTimer
 
 @end
-@implementation SHFlashOutputNavigation
+@implementation SHOutputNavigation
 
 @end

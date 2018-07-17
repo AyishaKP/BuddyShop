@@ -8,6 +8,7 @@
 
 #import "SHHorizontalCollectionViewController.h"
 #import "SHFeaturedCollectionViewCell.h"
+#import "SHResponse.h"
 
 @interface SHHorizontalCollectionViewController ()
 @property (nonatomic, strong) NSArray * arrayImages;
@@ -23,8 +24,11 @@ static NSString * const reuseIdentifier = @"Cell";
     
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     self.arrayImages = [NSArray arrayWithObjects:@"iPhone", @"bedroomMirror", @"tvSet", @"iPhone", @"bedroomMirror", @"iPhone", @"tvSet", nil];
+}
 
-    
+- (void)setFlashResponse:(SHResponse *)flashResponse {
+    _flashResponse = flashResponse;
+    [self.collectionView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {

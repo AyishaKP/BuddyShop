@@ -7,6 +7,7 @@
 //
 
 #import "SHVerticalCollectionViewController.h"
+#import "SHResponse.h"
 
 @interface SHVerticalCollectionViewController ()
 
@@ -26,6 +27,11 @@ static NSString * const reuseIdentifier = @"Cell";
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
+}
+
+- (void)setHomeResponse:(SHResponse *)homeResponse {
+    _homeResponse = homeResponse;
+    [self.collectionView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {

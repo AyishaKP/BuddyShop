@@ -11,20 +11,20 @@
 
 ///STATUS///
 
-@interface SHFlashStatus : NSObject
+@interface SHStatus : NSObject
 @property (nonatomic, strong) NSNumber *code;
 @property (nonatomic, strong) NSString *message;
 @end
 
 ///API///
-@interface SHFlashAPI : NSObject
+@interface SHAPI : NSObject
 @property (nonatomic, strong) NSString *language;
 @property (nonatomic, strong) NSString *currency;
 @property (nonatomic, strong) NSString *version;
 @end
 
 ///OUTPUT NAVIGATION///
-@interface SHFlashOutputNavigation : NSObject
+@interface SHOutputNavigation : NSObject
 @property (nonatomic, strong) NSNumber *total;
 @property (nonatomic, strong) NSNumber *page;
 @property (nonatomic, strong) NSNumber *count;
@@ -32,18 +32,18 @@
 @end
 
 ///OUTPUT DATA ITEM PRICE///
-@interface SHFlashOutputDataItemPrice : NSObject
+@interface SHOutputDataItemPrice : NSObject
 @property (nonatomic, strong) NSNumber *priceOld;
 @property (nonatomic, strong) NSNumber *priceNew;
 @end
 
 ///OUTPUT DATA ITEM IMAGE///
-@interface SHFlashOutputDataItemImage : NSObject
+@interface SHOutputDataItemImage : NSObject
 @property (nonatomic, strong) NSString *src;
 @end
 
 ///OUTPUT DATA ITEM TIMER///
-@interface SHFlashOutputDataItemTimer : NSObject
+@interface SHOutputDataItemTimer : NSObject
 @property (nonatomic, strong) NSString *day;
 @property (nonatomic, strong) NSString *hour;
 @property (nonatomic, strong) NSString *min;
@@ -51,7 +51,7 @@
 @end
 
 ///OUTPUT DATA ITEM///
-@interface SHFlashOutputDataItem : NSObject
+@interface SHOutputDataItem : NSObject
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *itemId;
 @property (nonatomic, strong) NSString *activeFrom;
@@ -59,29 +59,29 @@
 @property (nonatomic, strong) NSString *sort;
 @property (nonatomic, strong) NSString *state;
 
-@property (nonatomic, strong) SHFlashOutputDataItemPrice *prices;
-@property (nonatomic, strong) SHFlashOutputDataItemImage *image;
-@property (nonatomic, strong) SHFlashOutputDataItemTimer *timer;
+@property (nonatomic, strong) SHOutputDataItemPrice *prices;
+@property (nonatomic, strong) SHOutputDataItemImage *image;
+@property (nonatomic, strong) SHOutputDataItemTimer *timer;
 
 @end
 
 ///OUTPUT DATA///
-@interface SHFlashOutputData : NSObject
-@property (nonatomic, strong) NSArray<SHFlashOutputDataItem *> *items;
+@interface SHOutputData : NSObject
+@property (nonatomic, strong) NSArray<SHOutputDataItem *> *items;
 @property (nonatomic, strong) NSString *title;
 @property (nonatomic, strong) NSString *heading;
 @end
 
 ///OUTPUT///
-@interface SHFlashOutput : NSObject
-@property (nonatomic, strong) SHFlashOutputNavigation *navigation;
-@property (nonatomic, strong) SHFlashOutputData *data;
+@interface SHOutput : NSObject
+@property (nonatomic, strong) SHOutputNavigation *navigation;
+@property (nonatomic, strong) SHOutputData *data;
 @end
 ///BASE///
 @interface SHResponse : NSObject
-@property (nonatomic, strong) SHFlashAPI *api;
-@property (nonatomic, strong) SHFlashOutput *output;
-@property (nonatomic, strong) SHFlashStatus *status;
+@property (nonatomic, strong) SHAPI *api;
+@property (nonatomic, strong) SHOutput *output;
+@property (nonatomic, strong) SHStatus *status;
 @end
 
 

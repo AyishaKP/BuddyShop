@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SHResponse;
 
 @interface SHHorizontalCollectionViewController : UICollectionViewController
-
+@property (strong, nonatomic) SHResponse *flashResponse;
 @end

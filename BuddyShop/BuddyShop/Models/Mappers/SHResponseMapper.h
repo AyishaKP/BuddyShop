@@ -1,5 +1,5 @@
 //
-//  SHFlashResponseHandler.h
+//  SHResponseHandler.h
 //  BuddyShop
 //
 //  Created by Ayisha on 16/07/18.

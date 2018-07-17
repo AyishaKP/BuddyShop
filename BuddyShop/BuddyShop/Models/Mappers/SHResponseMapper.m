@@ -7,8 +7,6 @@
 //
 
 #import "SHResponseMapper.h"
-#import "SHFlashMapper.h"
-#import "SHHomeAPIMapper.h"
 #import "SHResponse.h"
 
 @implementation SHResponseMapper
@@ -31,45 +29,45 @@
     
     [inCodeMappingProvider mapFromDictionaryKey:@"MAX_PAGES"
                                   toPropertyKey:@"maxPage"
-                                       forClass:[SHFlashOutputNavigation class]];
+                                       forClass:[SHOutputNavigation class]];
     
     /******************* Response - OUTPUT - DATA - ITEM **********************/
     [inCodeMappingProvider mapFromDictionaryKey:@"ITEMS"
                                   toPropertyKey:@"items"
-                                 withObjectType:[SHFlashOutputDataItem class]
-                                       forClass:[SHFlashOutputData class]];
+                                 withObjectType:[SHOutputDataItem class]
+                                       forClass:[SHOutputData class]];
     
     [inCodeMappingProvider mapFromDictionaryKey:@"ID"
                                   toPropertyKey:@"itemId"
-                                       forClass:[SHFlashOutputDataItem class]];
+                                       forClass:[SHOutputDataItem class]];
     
     [inCodeMappingProvider mapFromDictionaryKey:@"ACTIVE_FROM"
                                   toPropertyKey:@"activeFrom"
-                                       forClass:[SHFlashOutputDataItem class]];
+                                       forClass:[SHOutputDataItem class]];
     
     [inCodeMappingProvider mapFromDictionaryKey:@"ACTIVE_TO"
                                   toPropertyKey:@"activeTo"
-                                       forClass:[SHFlashOutputDataItem class]];
+                                       forClass:[SHOutputDataItem class]];
     
     [inCodeMappingProvider mapFromDictionaryKey:@"PRICE_NEW"
                                   toPropertyKey:@"priceNew"
-                                       forClass:[SHFlashOutputDataItemPrice class]];
+                                       forClass:[SHOutputDataItemPrice class]];
     [inCodeMappingProvider mapFromDictionaryKey:@"PRICE_OLD"
                                   toPropertyKey:@"priceOld"
-                                       forClass:[SHFlashOutputDataItemPrice class]];
+                                       forClass:[SHOutputDataItemPrice class]];
     
     [inCodeMappingProvider mapFromDictionaryKey:@"D"
                                   toPropertyKey:@"day"
-                                       forClass:[SHFlashOutputDataItemTimer class]];
+                                       forClass:[SHOutputDataItemTimer class]];
     [inCodeMappingProvider mapFromDictionaryKey:@"H"
                                   toPropertyKey:@"hour"
-                                       forClass:[SHFlashOutputDataItemTimer class]];
+                                       forClass:[SHOutputDataItemTimer class]];
     [inCodeMappingProvider mapFromDictionaryKey:@"I"
                                   toPropertyKey:@"min"
-                                       forClass:[SHFlashOutputDataItemTimer class]];
+                                       forClass:[SHOutputDataItemTimer class]];
     [inCodeMappingProvider mapFromDictionaryKey:@"S"
                                   toPropertyKey:@"sec"
-                                       forClass:[SHFlashOutputDataItemTimer class]];
+                                       forClass:[SHOutputDataItemTimer class]];
     
 }
 

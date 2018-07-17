@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SHResponse;
 
 @interface SHVerticalCollectionViewController : UICollectionViewController
-
+@property (strong, nonatomic) SHResponse *homeResponse;
 @end
