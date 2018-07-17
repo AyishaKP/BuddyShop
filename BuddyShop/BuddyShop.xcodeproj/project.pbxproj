@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2283AD5BAD1D42AD5127A971 /* libPods-BuddyShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */; };
+		5A1BBC1120FDEF6F00CC2370 /* SHHomeAPIMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBC1020FDEF6F00CC2370 /* SHHomeAPIMapper.m */; };
+		5A1BBC1420FE01CC00CC2370 /* SHFlashMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1BBC1320FE01CC00CC2370 /* SHFlashMapper.m */; };
 		5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */; };
 		5A7C031320FC8B7E00DBB2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031120FC8B7E00DBB2BF /* Main.storyboard */; };
 		5A7C031520FC8B8700DBB2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031420FC8B8700DBB2BF /* Assets.xcassets */; };
@@ -20,11 +22,10 @@
 		5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035320FCB85B00DBB2BF /* SHVerticalCollectionViewController.m */; };
 		5A7C035720FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */; };
 		5A7C035A20FCB8D100DBB2BF /* SHProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */; };
-		5A7C035D20FCF29000DBB2BF /* SHProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035C20FCF29000DBB2BF /* SHProduct.m */; };
 		5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035F20FCF33000DBB2BF /* SHBanner.m */; };
-		5A7C036D20FCFAE000DBB2BF /* SHFlashResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036C20FCFAE000DBB2BF /* SHFlashResponse.m */; };
+		5A7C036D20FCFAE000DBB2BF /* SHResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036C20FCFAE000DBB2BF /* SHResponse.m */; };
 		5A7C037020FD01C000DBB2BF /* SHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */; };
-		5A7C037620FD2B3E00DBB2BF /* SHFlashResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C037520FD2B3E00DBB2BF /* SHFlashResponseHandler.m */; };
+		5A7C037620FD2B3E00DBB2BF /* SHResponseMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C037520FD2B3E00DBB2BF /* SHResponseMapper.m */; };
 		D9B13A2174652B1721BDD5F6 /* libPods-BuddyShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5E550C55ABCFDE89650E19 /* libPods-BuddyShop.a */; };
 		DFD650DC0B213B08965416D7 /* libPods-BuddyShopUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,10 @@
 		3B916EBB436FED6F28C90463 /* Pods-BuddyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopUITests/Pods-BuddyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CBC0D5CF08975B46B754CBE /* Pods-BuddyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShop/Pods-BuddyShop.release.xcconfig"; sourceTree = "<group>"; };
 		481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1BBC0F20FDEF6F00CC2370 /* SHHomeAPIMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHHomeAPIMapper.h; sourceTree = "<group>"; };
+		5A1BBC1020FDEF6F00CC2370 /* SHHomeAPIMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHHomeAPIMapper.m; sourceTree = "<group>"; };
+		5A1BBC1220FE01CC00CC2370 /* SHFlashMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFlashMapper.h; sourceTree = "<group>"; };
+		5A1BBC1320FE01CC00CC2370 /* SHFlashMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlashMapper.m; sourceTree = "<group>"; };
 		5A7C030820FC8B7E00DBB2BF /* BuddyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7C030B20FC8B7E00DBB2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,16 +80,14 @@
 		5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFeaturedCollectionViewCell.m; sourceTree = "<group>"; };
 		5A7C035820FCB8D100DBB2BF /* SHProductCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHProductCollectionViewCell.h; sourceTree = "<group>"; };
 		5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHProductCollectionViewCell.m; sourceTree = "<group>"; };
-		5A7C035B20FCF29000DBB2BF /* SHProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHProduct.h; sourceTree = "<group>"; };
-		5A7C035C20FCF29000DBB2BF /* SHProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHProduct.m; sourceTree = "<group>"; };
 		5A7C035E20FCF32F00DBB2BF /* SHBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHBanner.h; sourceTree = "<group>"; };
 		5A7C035F20FCF33000DBB2BF /* SHBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHBanner.m; sourceTree = "<group>"; };
-		5A7C036B20FCFAE000DBB2BF /* SHFlashResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFlashResponse.h; sourceTree = "<group>"; };
-		5A7C036C20FCFAE000DBB2BF /* SHFlashResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlashResponse.m; sourceTree = "<group>"; };
+		5A7C036B20FCFAE000DBB2BF /* SHResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHResponse.h; sourceTree = "<group>"; };
+		5A7C036C20FCFAE000DBB2BF /* SHResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHResponse.m; sourceTree = "<group>"; };
 		5A7C036E20FD01C000DBB2BF /* SHServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHServiceManager.h; sourceTree = "<group>"; };
 		5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHServiceManager.m; sourceTree = "<group>"; };
-		5A7C037420FD2B3E00DBB2BF /* SHFlashResponseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHFlashResponseHandler.h; sourceTree = "<group>"; };
-		5A7C037520FD2B3E00DBB2BF /* SHFlashResponseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFlashResponseHandler.m; sourceTree = "<group>"; };
+		5A7C037420FD2B3E00DBB2BF /* SHResponseMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHResponseMapper.h; sourceTree = "<group>"; };
+		5A7C037520FD2B3E00DBB2BF /* SHResponseMapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHResponseMapper.m; sourceTree = "<group>"; };
 		696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShopTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB5E550C55ABCFDE89650E19 /* libPods-BuddyShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C6E4F3F1A271D5BE1828B7 /* Pods-BuddyShopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopTests/Pods-BuddyShopTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +131,19 @@
 				481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A1BBC1520FE029D00CC2370 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				5A7C037420FD2B3E00DBB2BF /* SHResponseMapper.h */,
+				5A7C037520FD2B3E00DBB2BF /* SHResponseMapper.m */,
+				5A1BBC1220FE01CC00CC2370 /* SHFlashMapper.h */,
+				5A1BBC1320FE01CC00CC2370 /* SHFlashMapper.m */,
+				5A1BBC0F20FDEF6F00CC2370 /* SHHomeAPIMapper.h */,
+				5A1BBC1020FDEF6F00CC2370 /* SHHomeAPIMapper.m */,
+			);
+			path = Mappers;
 			sourceTree = "<group>";
 		};
 		5A7C02FF20FC8B7E00DBB2BF = {
@@ -220,16 +236,13 @@
 		5A7C034A20FC8CE800DBB2BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5A7C035B20FCF29000DBB2BF /* SHProduct.h */,
-				5A7C035C20FCF29000DBB2BF /* SHProduct.m */,
 				5A7C035E20FCF32F00DBB2BF /* SHBanner.h */,
 				5A7C035F20FCF33000DBB2BF /* SHBanner.m */,
-				5A7C036B20FCFAE000DBB2BF /* SHFlashResponse.h */,
-				5A7C036C20FCFAE000DBB2BF /* SHFlashResponse.m */,
 				5A7C036E20FD01C000DBB2BF /* SHServiceManager.h */,
 				5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */,
-				5A7C037420FD2B3E00DBB2BF /* SHFlashResponseHandler.h */,
-				5A7C037520FD2B3E00DBB2BF /* SHFlashResponseHandler.m */,
+				5A7C036B20FCFAE000DBB2BF /* SHResponse.h */,
+				5A7C036C20FCFAE000DBB2BF /* SHResponse.m */,
+				5A1BBC1520FE029D00CC2370 /* Mappers */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -457,14 +470,15 @@
 			files = (
 				5A7C035720FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m in Sources */,
 				5A7C035120FCB84900DBB2BF /* SHHorizontalCollectionViewController.m in Sources */,
-				5A7C036D20FCFAE000DBB2BF /* SHFlashResponse.m in Sources */,
+				5A7C036D20FCFAE000DBB2BF /* SHResponse.m in Sources */,
 				5A7C037020FD01C000DBB2BF /* SHServiceManager.m in Sources */,
 				5A7C035A20FCB8D100DBB2BF /* SHProductCollectionViewCell.m in Sources */,
-				5A7C037620FD2B3E00DBB2BF /* SHFlashResponseHandler.m in Sources */,
+				5A7C037620FD2B3E00DBB2BF /* SHResponseMapper.m in Sources */,
+				5A1BBC1420FE01CC00CC2370 /* SHFlashMapper.m in Sources */,
 				5A7C031B20FC8B8700DBB2BF /* main.m in Sources */,
 				5A7C034E20FCB81A00DBB2BF /* SHHomeTableTableViewController.m in Sources */,
-				5A7C035D20FCF29000DBB2BF /* SHProduct.m in Sources */,
 				5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */,
+				5A1BBC1120FDEF6F00CC2370 /* SHHomeAPIMapper.m in Sources */,
 				5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */,
 				5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */,
 			);

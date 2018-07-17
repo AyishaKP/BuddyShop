@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <OCMapper/OCMapper.h>
 
-@interface SHFlashResponseHandler : NSObject
+@interface SHResponseMapper : NSObject
 + (void)configure;
-
++ (void)mapResponseWith:(InCodeMappingProvider *)inCodeMappingProvider;
 @end

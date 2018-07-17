@@ -1,15 +1,15 @@
 //
-//  SHFlashResponse.m
+//  SHResponse.m
 //  BuddyShop
 //
 //  Created by Ayisha on 16/07/18.
 //  Copyright © 2018 Awok. All rights reserved.
 //
 
-#import "SHFlashResponse.h"
+#import "SHResponse.h"
 #import <OCMapper/OCMapper.h>
 
-@implementation SHFlashResponse
+@implementation SHResponse
 
 @end
 
@@ -29,9 +29,6 @@
 
 @end
 @implementation SHFlashOutputDataItemPrice
-
-@end
-@implementation SHFlashOutputDataItemImage
 
 @end
 @implementation SHFlashOutputDataItemTimer

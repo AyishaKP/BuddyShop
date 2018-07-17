@@ -8,7 +8,9 @@
 
 #import "SHHomeTableTableViewController.h"
 #import "SHServiceManager.h"
-#import "SHFlashResponse.h"
+#import "SHResponseMapper.h"
+#import "SHResponse.h"
+
 
 @interface SHHomeTableTableViewController ()
 @property (weak, nonatomic) IBOutlet UIView *horizontalContainerView;
@@ -20,10 +22,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[SHServiceManager sharedManager] getWithPath:@"api/flash/" parameters:nil returnType:[SHFlashResponse class] completionBlock:^(id result, NSError *error) {
-        NSLog(result);
+    
+    [SHResponseMapper configure];
+    
+    [[SHServiceManager sharedManager] getWithPath:@"api/flash/" parameters:nil returnType:[SHResponse class] completionBlock:^(SHResponse *result, NSError *error) {
+        NSLog(@"Flash ------>>>>%@\n\n", [result.output.data.items valueForKey:@"name"]);
     }];
     
+    [[SHServiceManager sharedManager] getWithPath:@"api/home/" parameters:@{@"PAGED": @(0)} returnType:[SHResponse class] completionBlock:^(SHResponse *result, NSError *error) {
+        NSLog(@"Product ------>>>>%@", [result.output.data.items valueForKey:@"name"]);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,5 +1,5 @@
 //
-//  SHFlashResponse.h
+//  SHResponse.h
 //  BuddyShop
 //
 //  Created by Ayisha on 16/07/18.
@@ -9,49 +9,40 @@
 #import <Foundation/Foundation.h>
 #import <OCMapper/OCMapper.h>
 
-///////---------------------------------------------////////
+///STATUS///
 
-/*STATUS*/
 @interface SHFlashStatus : NSObject
 @property (nonatomic, strong) NSNumber *code;
 @property (nonatomic, strong) NSString *message;
 @end
 
-///////---------------------------------------------////////
-
-/*API*/
+///API///
 @interface SHFlashAPI : NSObject
 @property (nonatomic, strong) NSString *language;
 @property (nonatomic, strong) NSString *currency;
 @property (nonatomic, strong) NSString *version;
-
-
 @end
 
-///////---------------------------------------------////////
-
-/*output->Navigation*/
+///OUTPUT NAVIGATION///
 @interface SHFlashOutputNavigation : NSObject
 @property (nonatomic, strong) NSNumber *total;
 @property (nonatomic, strong) NSNumber *page;
 @property (nonatomic, strong) NSNumber *count;
-@property (nonatomic, strong) NSNumber *maxPage;
+@property (nonatomic, strong) NSString *maxPage;
 @end
 
-///////---------------------------------------------////////
-
-/*output->Data->ITEM->PRICE*/
+///OUTPUT DATA ITEM PRICE///
 @interface SHFlashOutputDataItemPrice : NSObject
 @property (nonatomic, strong) NSNumber *priceOld;
 @property (nonatomic, strong) NSNumber *priceNew;
 @end
 
-/*output->Data->ITEM->Image*/
+///OUTPUT DATA ITEM IMAGE///
 @interface SHFlashOutputDataItemImage : NSObject
 @property (nonatomic, strong) NSString *src;
 @end
 
-/*output->Data->ITEM->Timer*/
+///OUTPUT DATA ITEM TIMER///
 @interface SHFlashOutputDataItemTimer : NSObject
 @property (nonatomic, strong) NSString *day;
 @property (nonatomic, strong) NSString *hour;
@@ -59,7 +50,7 @@
 @property (nonatomic, strong) NSString *sec;
 @end
 
-/*output->Data->item->*/
+///OUTPUT DATA ITEM///
 @interface SHFlashOutputDataItem : NSObject
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *itemId;
@@ -68,32 +59,30 @@
 @property (nonatomic, strong) NSString *sort;
 @property (nonatomic, strong) NSString *state;
 
-@property (nonatomic, strong) SHFlashOutputDataItemPrice *price;
+@property (nonatomic, strong) SHFlashOutputDataItemPrice *prices;
 @property (nonatomic, strong) SHFlashOutputDataItemImage *image;
 @property (nonatomic, strong) SHFlashOutputDataItemTimer *timer;
 
 @end
 
-/*output->Data*/
+///OUTPUT DATA///
 @interface SHFlashOutputData : NSObject
 @property (nonatomic, strong) NSArray<SHFlashOutputDataItem *> *items;
 @property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *heading;
 @end
 
-/*OUTPUT*/
+///OUTPUT///
 @interface SHFlashOutput : NSObject
 @property (nonatomic, strong) SHFlashOutputNavigation *navigation;
 @property (nonatomic, strong) SHFlashOutputData *data;
 @end
-
-///////---------------------------------------------////////
-
-///////---------------------------------------------////////
-@interface SHFlashResponse : NSObject
+///BASE///
+@interface SHResponse : NSObject
 @property (nonatomic, strong) SHFlashAPI *api;
 @property (nonatomic, strong) SHFlashOutput *output;
 @property (nonatomic, strong) SHFlashStatus *status;
 @end
 
-///////---------------------------------------------////////
+
 
