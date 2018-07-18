@@ -20,6 +20,23 @@
 
 static NSString * const reuseIdentifier = @"Cell";
 
+- (void)scrollWith:(ScrollDirection)direction {
+    CGRect collectionBounds = self.collectionView.bounds;
+    CGFloat contentOffset;
+    if (direction == ScrollDirectionLeft) {
+        contentOffset = (CGFloat)(floor(self.collectionView.contentOffset.x - collectionBounds.size.width - 8));
+    }else {
+        contentOffset = (CGFloat)(floor(self.collectionView.contentOffset.x + collectionBounds.size.width + 8));
+    }
+    [self moveCollectionToFrame:contentOffset];
+}
+
+-(void)moveCollectionToFrame:(CGFloat)contentOffset {
+    
+    CGRect frame = CGRectMake(contentOffset, self.collectionView.contentOffset.y, self.collectionView.frame.size.width, self.collectionView.frame.size.width);
+    [self.collectionView scrollRectToVisible:frame animated:YES];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 

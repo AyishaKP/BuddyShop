@@ -9,6 +9,7 @@
 #import "SHVerticalCollectionViewController.h"
 #import "SHProductCollectionViewCell.h"
 #import "SHResponse.h"
+
 @class SHOutputDataItem;
 
 @interface SHVerticalCollectionViewController ()

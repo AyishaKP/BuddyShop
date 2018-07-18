@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2283AD5BAD1D42AD5127A971 /* libPods-BuddyShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */; };
+		5A1F2CB320FEEE0F001013AB /* SHLoadMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F2CB220FEEE0F001013AB /* SHLoadMoreCell.m */; };
 		5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */; };
 		5A7C031320FC8B7E00DBB2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031120FC8B7E00DBB2BF /* Main.storyboard */; };
 		5A7C031520FC8B8700DBB2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031420FC8B8700DBB2BF /* Assets.xcassets */; };
@@ -50,6 +51,8 @@
 		3B916EBB436FED6F28C90463 /* Pods-BuddyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopUITests/Pods-BuddyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CBC0D5CF08975B46B754CBE /* Pods-BuddyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShop/Pods-BuddyShop.release.xcconfig"; sourceTree = "<group>"; };
 		481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1F2CB120FEEE0F001013AB /* SHLoadMoreCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLoadMoreCell.h; sourceTree = "<group>"; };
+		5A1F2CB220FEEE0F001013AB /* SHLoadMoreCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLoadMoreCell.m; sourceTree = "<group>"; };
 		5A7C030820FC8B7E00DBB2BF /* BuddyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7C030B20FC8B7E00DBB2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -244,6 +247,8 @@
 				5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */,
 				5A7C035820FCB8D100DBB2BF /* SHProductCollectionViewCell.h */,
 				5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */,
+				5A1F2CB120FEEE0F001013AB /* SHLoadMoreCell.h */,
+				5A1F2CB220FEEE0F001013AB /* SHLoadMoreCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -467,6 +472,7 @@
 				5A7C031B20FC8B8700DBB2BF /* main.m in Sources */,
 				5A7C034E20FCB81A00DBB2BF /* SHHomeTableTableViewController.m in Sources */,
 				5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */,
+				5A1F2CB320FEEE0F001013AB /* SHLoadMoreCell.m in Sources */,
 				5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */,
 				5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */,
 			);
@@ -645,7 +651,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awok.BuddyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -663,7 +669,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Awok.BuddyShop;
+				PRODUCT_BUNDLE_IDENTIFIER = com.awok.BuddyShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

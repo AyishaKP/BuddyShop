@@ -18,16 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="AGg-Vk-kbx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="awokLogo" translatesAutoresizingMaskIntoConstraints="NO" id="AGg-Vk-kbx">
+                                <rect key="frame" x="0.0" y="290" width="375" height="107"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.76048773527145386" green="0.17628279328346252" blue="0.20985925197601318" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="AGg-Vk-kbx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OHe-2u-EgX"/>
                             <constraint firstItem="AGg-Vk-kbx" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Tan-fq-URg"/>
-                            <constraint firstItem="AGg-Vk-kbx" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="fxs-xZ-g1R"/>
-                            <constraint firstItem="AGg-Vk-kbx" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="leq-Gf-gL1"/>
+                            <constraint firstItem="AGg-Vk-kbx" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ek9-iT-QdX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -38,6 +37,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="splash" width="640" height="389"/>
+        <image name="awokLogo" width="166" height="107"/>
     </resources>
 </document>
