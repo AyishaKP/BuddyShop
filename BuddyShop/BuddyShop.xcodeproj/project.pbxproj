@@ -8,7 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2283AD5BAD1D42AD5127A971 /* libPods-BuddyShopTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 696778C8568E29777D6C408D /* libPods-BuddyShopTests.a */; };
-		5A1F2CB320FEEE0F001013AB /* SHLoadMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F2CB220FEEE0F001013AB /* SHLoadMoreCell.m */; };
+		5A1F2CB520FF3AB0001013AB /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F2CB420FF3AB0001013AB /* MockResponse.json */; };
+		5A1F2CB720FF3ADB001013AB /* SHResponseMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F2CB620FF3ADB001013AB /* SHResponseMapperTests.m */; };
+		5A1F2CB920FF3BB0001013AB /* SHResponseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F2CB820FF3BB0001013AB /* SHResponseTests.m */; };
+		5A1F2CBB20FF3BD6001013AB /* SHOutputTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F2CBA20FF3BD6001013AB /* SHOutputTests.m */; };
+		5A1F2CBC20FF3D71001013AB /* MockResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F2CB420FF3AB0001013AB /* MockResponse.json */; };
 		5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */; };
 		5A7C031320FC8B7E00DBB2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031120FC8B7E00DBB2BF /* Main.storyboard */; };
 		5A7C031520FC8B8700DBB2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C031420FC8B8700DBB2BF /* Assets.xcassets */; };
@@ -21,7 +25,6 @@
 		5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035320FCB85B00DBB2BF /* SHVerticalCollectionViewController.m */; };
 		5A7C035720FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */; };
 		5A7C035A20FCB8D100DBB2BF /* SHProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */; };
-		5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C035F20FCF33000DBB2BF /* SHBanner.m */; };
 		5A7C036D20FCFAE000DBB2BF /* SHResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036C20FCFAE000DBB2BF /* SHResponse.m */; };
 		5A7C037020FD01C000DBB2BF /* SHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */; };
 		5A7C037620FD2B3E00DBB2BF /* SHResponseMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7C037520FD2B3E00DBB2BF /* SHResponseMapper.m */; };
@@ -51,8 +54,10 @@
 		3B916EBB436FED6F28C90463 /* Pods-BuddyShopUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShopUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShopUITests/Pods-BuddyShopUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3CBC0D5CF08975B46B754CBE /* Pods-BuddyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddyShop/Pods-BuddyShop.release.xcconfig"; sourceTree = "<group>"; };
 		481C32C5B06828576AA4DC81 /* libPods-BuddyShopUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BuddyShopUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A1F2CB120FEEE0F001013AB /* SHLoadMoreCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLoadMoreCell.h; sourceTree = "<group>"; };
-		5A1F2CB220FEEE0F001013AB /* SHLoadMoreCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLoadMoreCell.m; sourceTree = "<group>"; };
+		5A1F2CB420FF3AB0001013AB /* MockResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MockResponse.json; sourceTree = "<group>"; };
+		5A1F2CB620FF3ADB001013AB /* SHResponseMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHResponseMapperTests.m; sourceTree = "<group>"; };
+		5A1F2CB820FF3BB0001013AB /* SHResponseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHResponseTests.m; sourceTree = "<group>"; };
+		5A1F2CBA20FF3BD6001013AB /* SHOutputTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHOutputTests.m; sourceTree = "<group>"; };
 		5A7C030820FC8B7E00DBB2BF /* BuddyShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddyShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7C030B20FC8B7E00DBB2BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A7C030C20FC8B7E00DBB2BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -77,8 +82,6 @@
 		5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHFeaturedCollectionViewCell.m; sourceTree = "<group>"; };
 		5A7C035820FCB8D100DBB2BF /* SHProductCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHProductCollectionViewCell.h; sourceTree = "<group>"; };
 		5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHProductCollectionViewCell.m; sourceTree = "<group>"; };
-		5A7C035E20FCF32F00DBB2BF /* SHBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHBanner.h; sourceTree = "<group>"; };
-		5A7C035F20FCF33000DBB2BF /* SHBanner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHBanner.m; sourceTree = "<group>"; };
 		5A7C036B20FCFAE000DBB2BF /* SHResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHResponse.h; sourceTree = "<group>"; };
 		5A7C036C20FCFAE000DBB2BF /* SHResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHResponse.m; sourceTree = "<group>"; };
 		5A7C036E20FD01C000DBB2BF /* SHServiceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHServiceManager.h; sourceTree = "<group>"; };
@@ -184,8 +187,12 @@
 		5A7C032320FC8B8800DBB2BF /* BuddyShopTests */ = {
 			isa = PBXGroup;
 			children = (
+				5A1F2CB420FF3AB0001013AB /* MockResponse.json */,
 				5A7C032420FC8B8800DBB2BF /* BuddyShopTests.m */,
 				5A7C032620FC8B8800DBB2BF /* Info.plist */,
+				5A1F2CB620FF3ADB001013AB /* SHResponseMapperTests.m */,
+				5A1F2CB820FF3BB0001013AB /* SHResponseTests.m */,
+				5A1F2CBA20FF3BD6001013AB /* SHOutputTests.m */,
 			);
 			path = BuddyShopTests;
 			sourceTree = "<group>";
@@ -229,8 +236,6 @@
 		5A7C034A20FC8CE800DBB2BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5A7C035E20FCF32F00DBB2BF /* SHBanner.h */,
-				5A7C035F20FCF33000DBB2BF /* SHBanner.m */,
 				5A7C036E20FD01C000DBB2BF /* SHServiceManager.h */,
 				5A7C036F20FD01C000DBB2BF /* SHServiceManager.m */,
 				5A7C036B20FCFAE000DBB2BF /* SHResponse.h */,
@@ -247,8 +252,6 @@
 				5A7C035620FCB8BD00DBB2BF /* SHFeaturedCollectionViewCell.m */,
 				5A7C035820FCB8D100DBB2BF /* SHProductCollectionViewCell.h */,
 				5A7C035920FCB8D100DBB2BF /* SHProductCollectionViewCell.m */,
-				5A1F2CB120FEEE0F001013AB /* SHLoadMoreCell.h */,
-				5A1F2CB220FEEE0F001013AB /* SHLoadMoreCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 			files = (
 				5A7C031820FC8B8700DBB2BF /* LaunchScreen.storyboard in Resources */,
 				5A7C031520FC8B8700DBB2BF /* Assets.xcassets in Resources */,
+				5A1F2CBC20FF3D71001013AB /* MockResponse.json in Resources */,
 				5A7C031320FC8B7E00DBB2BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +393,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F2CB520FF3AB0001013AB /* MockResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,8 +477,6 @@
 				5A7C031B20FC8B8700DBB2BF /* main.m in Sources */,
 				5A7C034E20FCB81A00DBB2BF /* SHHomeTableTableViewController.m in Sources */,
 				5A7C035420FCB85B00DBB2BF /* SHVerticalCollectionViewController.m in Sources */,
-				5A1F2CB320FEEE0F001013AB /* SHLoadMoreCell.m in Sources */,
-				5A7C036020FCF33000DBB2BF /* SHBanner.m in Sources */,
 				5A7C030D20FC8B7E00DBB2BF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +485,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F2CB920FF3BB0001013AB /* SHResponseTests.m in Sources */,
+				5A1F2CBB20FF3BD6001013AB /* SHOutputTests.m in Sources */,
+				5A1F2CB720FF3ADB001013AB /* SHResponseMapperTests.m in Sources */,
 				5A7C032520FC8B8800DBB2BF /* BuddyShopTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

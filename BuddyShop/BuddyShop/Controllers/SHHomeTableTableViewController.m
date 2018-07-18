@@ -12,7 +12,6 @@
 #import "SHResponse.h"
 #import "SHVerticalCollectionViewController.h"
 #import "SHHorizontalCollectionViewController.h"
-#import "SHLoadMoreCell.h"
 
 typedef NS_ENUM(NSUInteger, ViewType) {
     ViewTypeHorizontalCollection,
@@ -20,11 +19,19 @@ typedef NS_ENUM(NSUInteger, ViewType) {
     ViewTypeLoadingCell
 };
 
+static CGFloat const cellSpacing = 8.0;
+static CGFloat const featuredCellHeight = 300.0;
+static CGFloat const productCellHeight = 280.0;
+static CGFloat const loadingCellHeight = 44.0;
+
 @interface SHHomeTableTableViewController () {
+    /// Used for pagination to indicate if there is already a page request
     __block BOOL isLoading;
+    
+    /// Used for calculating the page
     __block NSUInteger totalItems;
-    CGFloat contentOffsetY;
 }
+
 @property (weak, nonatomic) IBOutlet UIView *horizontalContainerView;
 
 @property (weak, nonatomic) IBOutlet UIView *verticalContainerView;
@@ -81,7 +88,6 @@ typedef NS_ENUM(NSUInteger, ViewType) {
     
     isLoading = YES;
     totalItems = 0;
-    contentOffsetY = 0;
     
     __weak SHHomeTableTableViewController *weakSelf = self;
     
@@ -112,11 +118,11 @@ typedef NS_ENUM(NSUInteger, ViewType) {
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     if ([indexPath row] == ViewTypeVerticalCollection)  {
         unsigned long numRows = totalItems/2;
-        return (CGFloat)numRows * 280.0;
+        return (CGFloat)numRows * productCellHeight + (CGFloat)numRows * cellSpacing;
     }if ([indexPath row] == ViewTypeHorizontalCollection)  {
-        return 300.0;
+        return featuredCellHeight;
     }
-    return 44.0;
+    return loadingCellHeight;
 }
 
 #pragma mark - UITableViewDataSource
@@ -135,7 +141,7 @@ typedef NS_ENUM(NSUInteger, ViewType) {
     CGFloat scrollViewContenteHeight = scrollView.contentSize.height;
     CGFloat currentOffset = scrollView.contentOffset.y;
     int endOfPage = (int)(currentOffset + scrollView.frame.size.height) >=  (int)(scrollViewContenteHeight);
-    if (_homeResponse != nil && endOfPage && !isLoading){
+    if (_homeResponse != nil && endOfPage && !isLoading) {
         isLoading = YES;
         SHOutputNavigation *navigation = _homeResponse.output.navigation;
         if ([navigation.page intValue] < [navigation.maxPage intValue]) {

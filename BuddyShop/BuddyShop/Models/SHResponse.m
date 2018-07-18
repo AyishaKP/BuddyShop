@@ -16,10 +16,12 @@
 @implementation SHAPI
 
 @end
-@implementation SHOutput
+
+@implementation SHStatus
 
 @end
-@implementation SHStatus
+
+@implementation SHOutput
 
 @end
 
@@ -27,19 +29,22 @@
 
 @end
 
+@implementation SHOutputDataItem
+
+@end
+
 @implementation SHOutputDataItemImage
 
 @end
 
-@implementation SHOutputDataItem
-
-@end
 @implementation SHOutputDataItemPrice
 
 @end
+
 @implementation SHOutputDataItemTimer
 
 @end
+
 @implementation SHOutputNavigation
 
 @end

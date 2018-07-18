@@ -20,9 +20,11 @@
 @end
 
 @implementation SHProductCollectionViewCell
+
 - (IBAction)didTapCart:(UIButton *)sender {
-    [self.contentView makeToast:@"Your product is added to cart."];
+    [self.contentView makeToast:@"Product is added to cart."];
 }
+
 - (void)configureCellWithItem:(SHOutputDataItem *)item andMetadata:(SHAPI *)metadata {
     _titleLabel.numberOfLines = 1;
     [_addToCartButton setBackgroundColor:[UIColor orangeColor]];

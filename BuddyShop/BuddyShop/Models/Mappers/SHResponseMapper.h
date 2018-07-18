@@ -9,7 +9,12 @@
 #import <Foundation/Foundation.h>
 #import <OCMapper/OCMapper.h>
 
+/**
+ This class will be used to configure the mapping and provide the ObjectMapper with a InCodeMappingProvider instance which will have all possible custom mappings specified.
+ */
 @interface SHResponseMapper : NSObject
+
+ /// This method will provide the ObjectMapper with a InCodeMappingProvider instance which will have all possible custom mappings specified.
 + (void)configure;
-+ (void)mapResponseWith:(InCodeMappingProvider *)inCodeMappingProvider;
+
 @end
